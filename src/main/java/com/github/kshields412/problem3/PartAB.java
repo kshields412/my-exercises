@@ -1,4 +1,4 @@
-package problems.problem3;
+package com.github.kshields412.problem3;
 
 import com.opencsv.CSVReader;
 

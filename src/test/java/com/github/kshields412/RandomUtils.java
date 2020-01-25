@@ -1,4 +1,4 @@
-package problemstest;
+package com.github.kshields412;
 
 import java.util.Random;
 

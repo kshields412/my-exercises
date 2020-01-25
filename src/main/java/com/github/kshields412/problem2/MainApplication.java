@@ -1,6 +1,4 @@
-package problems.problem2;
-
-import problems.problem2.PartA;
+package com.github.kshields412.problem2;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;

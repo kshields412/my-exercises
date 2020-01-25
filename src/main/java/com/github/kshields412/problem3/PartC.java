@@ -1,4 +1,4 @@
-package problems.problem3;
+package com.github.kshields412.problem3;
 
 public class PartC {
     /* this implementation would change the auxiliary space because it is manipulating bits

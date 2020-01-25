@@ -1,16 +1,9 @@
-package problemstest.problem2;
+package com.github.kshields412.problem2;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
-public class PartA {
-    problems.problem2.PartA partA;
-
-    @Before
-    public void setUp() {
-        partA = new problems.problem2.PartA();
-    }
+public class PartATest {
 
     @Test
     public void testOne() {
@@ -34,6 +27,7 @@ public class PartA {
     }
 
     public void getNumberOfCommonStringsTest(String[] arrA, String[] arrB, int exp) {
+        PartA partA = new PartA();
         int actual = partA.getNumberOfCommonStrings(arrA, arrB);
         Assert.assertEquals(exp, actual);
     }

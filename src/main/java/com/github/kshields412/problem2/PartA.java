@@ -1,11 +1,10 @@
-package problems.problem2;
+package com.github.kshields412.problem2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
 public class PartA {
-
 
     /*
                             ==================== Part C ====================
@@ -15,7 +14,6 @@ public class PartA {
     input so large would end up being something that is inefficient overall. With an input size so large, it
     would be more efficient to convert this solution into one with the capabilities to find what it needs in
     a constant time rather than being dependent on the input size. */
-
 
     public Integer getNumberOfCommonStrings(String[] fileAStrings, String[] fileBStrings) {
         int count = 0;

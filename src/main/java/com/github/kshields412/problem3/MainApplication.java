@@ -1,15 +1,11 @@
-package problemstest.problem3;
-
-import org.junit.Test;
-import problems.problem3.PartAB;
+package com.github.kshields412.problem3;
 
 import java.io.File;
 import java.util.Arrays;
 
-public class PartABTest {
+public class MainApplication {
 
-    @Test
-    public void test() {
+    public static void main(String[] args) {
         String currentDirectory = System.getProperty("user.dir");
         String resourceDirectory = "/src/main/resources/";
         String fileName = "numberData.csv";

@@ -1,4 +1,4 @@
-package problems.problem1;
+package com.github.kshields412.problem1;
 
 public class PartA {
     private final Integer[] sortedList;

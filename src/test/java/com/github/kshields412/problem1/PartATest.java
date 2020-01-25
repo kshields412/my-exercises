@@ -1,8 +1,7 @@
-package problemstest.problem1;
+package com.github.kshields412.problem1;
 
 import org.junit.Assert;
 import org.junit.Test;
-import problems.problem1.PartA;
 
 public class PartATest {
 
