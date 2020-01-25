@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="337d975a-02b5-4345-8010-b92fa35c9f9b" name="Default Changelist" comment="" />
+    <list default="true" id="337d975a-02b5-4345-8010-b92fa35c9f9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/problemstest/problem3/PartABTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProblemThreeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/problem3/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ProblemTwoDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/problem2/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/ProblemTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/problem2/PartA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/problem1/ProblemOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/problem3/Attempt2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/problem3/PartAB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/problems/problem3/ProblemThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/problem3/PartC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problemstest/ProblemThreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problemstest/problem3/PartCTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problemstest/ProblemTwoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/problemstest/problem2/PartA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problemstest/problem1/PerformanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/problemstest/problem1/ProblemOneTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProblemThreeDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ProblemTwoDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/ProblemTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/problem1/Attempt2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/problem1/ProblemOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/problem3/Attempt2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/problems/problem3/ProblemThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/problemstest/ProblemThreeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/problemstest/ProblemTwoTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/problemstest/problem1/Attempt2Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/problemstest/problem1/PerformanceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/problemstest/problem1/ProblemOneTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +40,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +51,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1WqiIPeCX04IB7mLaMTR5su1e0T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +59,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -38,8 +69,36 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Attempt2Test">
-    <configuration name="Attempt2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MainApplication">
+    <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problems.problem3.MainApplication" />
+      <module name="HealthVerityAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problems.problem3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HealthVerityAssessment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problemstest.problem3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="problemstest.problem2" />
+      <option name="MAIN_CLASS_NAME" value="problemstest.problem2.PartA" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartATest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="HealthVerityAssessment" />
       <extension name="coverage">
         <pattern>
@@ -48,7 +107,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="problemstest.problem1" />
-      <option name="MAIN_CLASS_NAME" value="problemstest.problem1.Attempt2Test" />
+      <option name="MAIN_CLASS_NAME" value="problemstest.problem1.PartATest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,43 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HealthVerityAssessment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problemstest.problem1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problemstest" />
-      <option name="MAIN_CLASS_NAME" value="problemstest.ProblemThreeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProblemTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="HealthVerityAssessment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="problemstest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="problemstest" />
-      <option name="MAIN_CLASS_NAME" value="problemstest.ProblemTwoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Attempt2Test" />
+        <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.PartATest" />
         <item itemvalue="JUnit.PerformanceTest" />
-        <item itemvalue="JUnit.ProblemTwoTest" />
+        <item itemvalue="JUnit.PartA" />
         <item itemvalue="JUnit.ProblemOneTest" />
-        <item itemvalue="JUnit.ProblemThreeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -137,26 +166,38 @@
     </state>
     <state x="220" y="23" key="#Project_Structure/0.23.1440.831@0.23.1440.831" timestamp="1579883474259" />
     <state x="293" y="23" key="#Project_Structure/0.23.1920.1011@0.23.1920.1011" timestamp="1579902459086" />
-    <state width="1862" height="3" key="GridCell.Tab.0.bottom" timestamp="1579916377286">
+    <state x="729" y="167" key="#com.intellij.ide.util.MemberChooser" timestamp="1579916763277">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="729" y="167" key="#com.intellij.ide.util.MemberChooser/0.23.1920.1011@0.23.1920.1011" timestamp="1579916763277" />
+    <state x="666" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579917069930">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="666" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1011@0.23.1920.1011" timestamp="1579917069930" />
+    <state x="635" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579916620587">
+      <screen x="0" y="23" width="1920" height="1011" />
+    </state>
+    <state x="635" y="225" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1011@0.23.1920.1011" timestamp="1579916620587" />
+    <state width="1862" height="198" key="GridCell.Tab.0.bottom" timestamp="1579918036161">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state width="1382" height="151" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1579910253037" />
-    <state width="1862" height="3" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1579916377286" />
-    <state width="1862" height="3" key="GridCell.Tab.0.center" timestamp="1579916377284">
+    <state width="1862" height="198" key="GridCell.Tab.0.bottom/0.23.1920.1011@0.23.1920.1011" timestamp="1579918036161" />
+    <state width="1862" height="198" key="GridCell.Tab.0.center" timestamp="1579918036160">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state width="1382" height="151" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1579910253036" />
-    <state width="1862" height="3" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1579916377284" />
-    <state width="1862" height="3" key="GridCell.Tab.0.left" timestamp="1579916377284">
+    <state width="1862" height="198" key="GridCell.Tab.0.center/0.23.1920.1011@0.23.1920.1011" timestamp="1579918036160" />
+    <state width="1862" height="198" key="GridCell.Tab.0.left" timestamp="1579918036159">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state width="1382" height="151" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1579910253035" />
-    <state width="1862" height="3" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1579916377284" />
-    <state width="1862" height="3" key="GridCell.Tab.0.right" timestamp="1579916377285">
+    <state width="1862" height="198" key="GridCell.Tab.0.left/0.23.1920.1011@0.23.1920.1011" timestamp="1579918036159" />
+    <state width="1862" height="198" key="GridCell.Tab.0.right" timestamp="1579918036161">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state width="1382" height="151" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1579910253036" />
-    <state width="1862" height="3" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1579916377285" />
+    <state width="1862" height="198" key="GridCell.Tab.0.right/0.23.1920.1011@0.23.1920.1011" timestamp="1579918036161" />
     <state width="1862" height="292" key="GridCell.Tab.1.bottom" timestamp="1579902977225">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
@@ -190,10 +231,10 @@
       <screen x="0" y="23" width="1440" height="831" />
     </state>
     <state x="384" y="23" width="671" height="831" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.831@0.23.1440.831" timestamp="1579904998286" />
-    <state x="401" y="23" width="1118" height="1256" key="search.everywhere.popup" timestamp="1579915613872">
+    <state x="401" y="23" width="1118" height="1256" key="search.everywhere.popup" timestamp="1579918008107">
       <screen x="0" y="23" width="1920" height="1011" />
     </state>
     <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.831@0.23.1440.831" timestamp="1579909803198" />
-    <state x="401" y="23" width="1118" height="1256" key="search.everywhere.popup/0.23.1920.1011@0.23.1920.1011" timestamp="1579915613872" />
+    <state x="401" y="23" width="1118" height="1256" key="search.everywhere.popup/0.23.1920.1011@0.23.1920.1011" timestamp="1579918008107" />
   </component>
 </project>

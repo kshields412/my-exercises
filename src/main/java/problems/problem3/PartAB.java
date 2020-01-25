@@ -6,20 +6,29 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
-public class Attempt2 {
+public class PartAB {
     private List<String[]> columns;
     private Integer singularlyMissed;
     private Integer doublyMissed;
 
-    public Attempt2(File csvFile) {
+    public PartAB(File csvFile) {
         try {
             CSVReader reader = new CSVReader(new FileReader(csvFile.getAbsolutePath()));
             this.columns = reader.readAll();
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public String[] getColumnA() {
+        return columns.get(0);
+    }
+
+    public String[] getColumnB() {
+        return columns.get(1);
     }
 
     public void setMissedValues() {
@@ -39,5 +48,13 @@ public class Attempt2 {
                 this.singularlyMissed = currentExpectedValue;
             }
         }
+    }
+
+    public Integer getSingularlyMissed() {
+        return singularlyMissed;
+    }
+
+    public Integer getDoublyMissed() {
+        return doublyMissed;
     }
 }

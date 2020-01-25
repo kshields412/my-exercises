@@ -1,16 +1,15 @@
-package problemstest;
+package problemstest.problem2;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import problems.ProblemTwo;
 
-public class ProblemTwoTest {
-    ProblemTwo problemTwo;
+public class PartA {
+    problems.problem2.PartA partA;
 
     @Before
     public void setUp() {
-        problemTwo = new ProblemTwo();
+        partA = new problems.problem2.PartA();
     }
 
     @Test
@@ -35,7 +34,7 @@ public class ProblemTwoTest {
     }
 
     public void getNumberOfCommonStringsTest(String[] arrA, String[] arrB, int exp) {
-        int actual = problemTwo.getNumberOfCommonStrings(arrA, arrB);
+        int actual = partA.getNumberOfCommonStrings(arrA, arrB);
         Assert.assertEquals(exp, actual);
     }
 

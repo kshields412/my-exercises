@@ -1,16 +1,16 @@
-package problemstest;
+package problemstest.problem3;
 
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import problems.problem3.ProblemThree;
+import problems.problem3.PartC;
 
-public class ProblemThreeTest {
-    ProblemThree problemThree;
+public class PartCTest {
+    PartC partC;
 
     @Before
     public void setUp(){
-        problemThree = new ProblemThree();
+        partC = new PartC();
     }
 
     @Test
@@ -32,7 +32,7 @@ public class ProblemThreeTest {
     }
 
     public void getMissingNumberTest(Integer[] numArr, int exp){
-        int actual = problemThree.getColumnAMissingNum(numArr);
+        int actual = partC.getColumnAMissingNum(numArr);
 
         Assert.assertEquals(exp, actual);
     }

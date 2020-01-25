@@ -1,10 +1,22 @@
-package problems;
+package problems.problem2;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class ProblemTwo {
+public class PartA {
+
+
+    /*
+                            ==================== Part C ====================
+    I would definitely change my approach to this problem if I had one billion strings added to the file.
+    I think that even with a million strings, it is definitely not the most efficient way to compare the
+    strings in this way. The amount of time and space that would be needed to process this algorithm with an
+    input so large would end up being something that is inefficient overall. With an input size so large, it
+    would be more efficient to convert this solution into one with the capabilities to find what it needs in
+    a constant time rather than being dependent on the input size. */
+
+
     public Integer getNumberOfCommonStrings(String[] fileAStrings, String[] fileBStrings) {
         int count = 0;
         for (int i = 0; i < fileAStrings.length; i++) {
@@ -41,10 +53,4 @@ public class ProblemTwo {
         return resultStringArr;
     }
 
-    /* I would definitely change my approach to this problem if I had one billion strings added to the file.
-    I think that even with a million strings, it is definitely not the most efficient way to compare the
-    strings in this way. The amount of time and space that would be needed to process this algorithm with an
-    input so large would end up being something that is inefficient overall. With an input size so large, it
-    would be more efficient to convert this solution into one with the capabilities to find what it needs in
-    a constant time rather than being dependent on the input size. */
 }
