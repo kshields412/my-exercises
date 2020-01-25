@@ -59,4 +59,13 @@ public class PartA {
         }
         return randomNumList;
     }
+
+    /*
+                ======================== Part B ========================
+    I do not think that it would be possible to complere part a with O(1) auxiliary space.
+    I personally could not find a way to shorten this process into something that would
+    be able to complete a process in the way a O(1) algorithm would require. I did think
+    of putting the values into a HashSet however this would prove difficult for the fact that
+    I am looking for only the values that have not been duplicated.
+     */
 }

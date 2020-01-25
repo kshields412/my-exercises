@@ -17,10 +17,15 @@ public class PartAB {
     public PartAB(File csvFile) {
         try {
             CSVReader reader = new CSVReader(new FileReader(csvFile.getAbsolutePath()));
-            this.columns = reader.readAll();
+            this.columns = this.getColumns(reader.readAll());
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    //still working on trying to find the right way to read in columns instead of rows
+    private List<String[]> getColumns(List<String[]> csv) {
+        return csv;
     }
 
     public String[] getColumnA() {
